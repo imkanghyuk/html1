@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            width: 200px; height: 200px; color: white; text-align: center; line-height: 200px;
+            display: inline-block; cursor: pointer;
+        }
+        
+          /* 내용 수평 가운데 text-align:center;    수직 가운데 line-height */
+          /* inline-block 4픽셀 정도 간격 두고 정렬됨 각 셀에서 조정진행*/
+
+
+
+          /* 각 div에 마우스가 호버되면 다른 디자인을 적용하시오 */
+
+        #red {
+            background-color: red; 
+        }
+
+        #green {
+            background-color: green; margin: -6px;
+        }
+
+        #blue { 
+            background-color: blue; margin: -6px;
+        }
+
+        #red:hover{
+            background-color: white;
+            width: 200px;
+            border: 1px;
+            color: black
+          
+        }    
+
+        #green:hover{
+            background-color: white;
+            width: 200px;
+            border: 1px;
+            color: black
+                                
+        }
+
+        #blue:hover{
+            background-color: white;
+            width: 200px;
+            border: 1px;
+            color: black
+
+           
+            
+        }    
+
+    </style>
+
+</head>
+
+<body>
+
+    <div id="red">
+        A
+    </div>
+
+    <div id="green">
+        B
+    </div>
+
+    <div id="blue">
+        C
+    </div>
+
+    
+</body>
+
+</html>
