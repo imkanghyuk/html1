@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+       /*
+        선택자 (selector) : css에서 html 요소를 선택하는 방법
+        tag 선택자 (사용한 태그를 직접 붙여 불러오기 td)
+        class 선택자 : 분류명 으로 여러개를 선택 , 불러올 때 .클래스명
+        id 선택자 : 이름으로 하나를 선택
+
+        주로 class 태그 이용이 높음
+        class="1 2 3" 하며 확장 가능
+
+        */
+
+        table {
+            width: 600px;
+            border-collapse: collapse;
+        }
+
+        table, td {
+            border : 1px solid #567;
+            color: #567;
+                /* color : rgb(255, 255, 255) = 흰색
+                           rgb(255, 255, 255) = 검정색
+                */
+        }
+
+        td {
+            text-align: center;
+            height: 50px;
+        }
+
+
+        .u{
+            text-decoration: underline;
+        }
+
+        .italic{
+            font-style:italic;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <table>
+        <thead>
+            <tr>
+                <th class="u italic"> 제목 </th>
+                <th> 제목2 </th>
+                <th class="u"> 제목3 </th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td> 내용 </td>
+                <td> 내용1 </td>
+                <td> 내용2 </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
