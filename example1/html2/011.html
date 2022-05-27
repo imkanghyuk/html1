@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+
+<body>
+    <!-- 속성 값이 아닌 속성의 존재 유무를 판단 : disabled, check, selected, readonly -->
+
+    <label>이메일 : </label>
+    <input type="text"> @ <input type="text" readonly>
+
+    <select>
+        <option>네이버</option>
+        <option>다음</option>
+        <option>직접입력</option>
+    </select>
+
+    <br/>
+    <label>이메일 : </label>
+    <input type="text"> @ <input type="text" disabled="disabled">
+                            <!-- readonly 선택은 됨 disabled 선택이 안됨  -->
+    
+        <select>
+            <option>네이버</option>
+            <option>다음</option>
+            <option>직접입력</option>
+        </select>
+
+</body>
+</html>

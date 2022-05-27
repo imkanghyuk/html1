@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>레드향 주문하기</title>
+
+    <style>
+        .cc{
+            width: 40px;        
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>레드향 주문하기</h1>
+    
+    <fieldset>
+    <legend>상품선택</legend>    
+    <p><b>주문할 상품을 선택해 주세요.</b></p>
+    <form action="#">
+    <ul>
+        <li>
+            <input type="checkbox" name="aa"> 선물용 3kg <input type="number" class="cc" min="1" max="5" required>개
+        </li>
+        <li>
+            <input type="checkbox" name="aa"> 선물용 5kg <input type="number" class="cc" min="1" max="3" required>개
+        </li>
+        <li>
+            <input type="checkbox" name="aa"> 가정용 3kg <input type="number" class="cc" min="1" max="5" required>개
+        </li>
+        <li>
+            <input type="checkbox" name="aa"> 가정용 5kg <input type="number" class="cc" min="1" max="3" required>개
+        </li>
+        <input type="submit">
+    </ul>
+    </form>
+    <p><b>포장 선택</b></p>
+    <ol>
+        <li><input type="radio" name="bb">선물 포장</li>
+        <li><input type="radio" name="bb">선물 포장 안함</li>
+    </ol>
+    </fieldset>
+
+    <fieldset>
+    <legend>배송정보</legend>
+     <ul>
+         <li>이름 <input type="text"></li>
+         <li>배송 주소 <input type="text"></li>
+         <li>이메일 <input type="email"></li>
+         <li>연락처 <input type="email"></li>
+         <li>배송 지정 <input type="date"></li>
+         <li>메모 <textarea name="textarea1" id="textarea1" cols="30" rows="5"></textarea></li>
+     </ul>
+    </fieldset>
+    <button>주문하기</button> <button>취소하기</button>
+</body>
+
+</html>

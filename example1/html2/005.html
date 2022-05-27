@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> input 요소들 </title>
+
+    <style>
+        input{
+            width: 200px;
+            height: 35px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <form>
+        <input type="text"> <br/>  <!-- 텍스트 타입 -->
+        <input type="password"> <br/> <!-- 비밀번호로 블라인드 처리 -->
+        <input type="file"> <br/> <!-- 파일 선택 -->
+        <input type="button" value="클릭하세요"> <br/> <!-- 버튼 -->
+    </form>
+    
+    <br/>
+    <br/>
+    <br/>
+
+    <form action="http://www.naver.com">
+        <input type="text" name="user_id" id="user_id" maxlength="10" placeholder="ID를 입력하세요">
+        <input type="password" name="password" id="user_password" maxlength="10" placeholder="비밀번호를 입력하세요">
+        <button>클릭하세요</button>
+    </form>
+
+
+    <!--
+         속성 name : 웹서버상 이름 정의 id : 프론트(해당 문서)의 이름 정의
+         maxlength : 입력값 최대 길이 정의
+         placeholder : 입력창에 희미한 텍스트 작성
+     -->
+
+<!--
+    <form action="http://www.naver.com">
+        <input type="text">
+        <input type="password">
+        <button>로그인</button>
+    </form>
+
+    <form action="http://www.naver.com">
+        <input type="text" name="user_id">
+        <input type="password" name="password">
+        <button>로그인</button>
+    </form>
+
+    *두개의 차이 name 속성을 주지 않으면 입력값이 다음 페이지로 넘어가지 않는다
+-->
+
+</body>
+
+</html>

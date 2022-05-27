@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> URL을 표기하는 방법 </title>
+
+</head>
+
+<body>
+
+     <p>
+         live서버의 주소 : http://127.0.0.1:5500 (본인 컴퓨터) <br/>
+         <br/>
+         통신규약(프로토콜) <br/>
+            http://test.com : 웹을 위한 통신 규약 <br/>
+            ftp://test.com : 파일 다운로드를 위한 통신규약 <br/>
+         <br/>
+        포트 <br/>
+            실행중인 인터넷 프로그램들을 구별하는 번호 <br/>
+            0~65535까지 사용 가능 <br/>
+            포트가 없으면 프로그램이 인터넷을 사용할 수 없다. <br/>
+            저명한 프로그램들은 자신의 포트 번호를 가진다 <br/>
+                웹은 80, ftp는 21... <br/>
+     </p>
+
+     <p>
+         그래서 <br/>
+            http://127.0.0.1:5500 --> i:/html2 <br/>
+        <br/>    
+        1.jpg의 url은 <br/>
+            i:/html2/1.jpg <br/>
+            http://127.0.0.1:5500 --> 절대주소 <br/>
+            <br/>
+        현 파일의 현재 위치 기준으로 표기 --> 상대 주소 <br/>
+     </p>
+
+     <img src="http://127.0.0.1:5500/example1/1.jpeg" width="350">
+     <br/>
+     <img src="1.jpeg" width="300">
+
+    
+</body>
+
+</html>
